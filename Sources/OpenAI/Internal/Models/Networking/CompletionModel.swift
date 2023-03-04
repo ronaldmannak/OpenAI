@@ -14,6 +14,7 @@ public struct CompletionModel: Decodable {
     public let object: String
     public let created: Int
     public let choices: [Choice]
+    public let usage: UsageModel
 }
 
 // MARK: - `CompletionModel+Choice`
